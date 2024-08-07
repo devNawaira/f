@@ -1,0 +1,139 @@
+body {
+    background-color:  #023e8a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+i.header {
+    margin: 0px 10px 0px 0px;
+    vertical-align: top;
+    position: relative;
+    top: -2px;
+}
+
+h4.header {
+    margin: 5% 20%;
+    color: #FFFFFF;
+    font-weight: 500;
+    display: block;
+}
+
+.info {
+    color: #FFFFFF;
+    position: relative;
+    margin: -4.6% 22%;
+}
+
+.container {
+    background-color: #FFFFFF;
+    margin: 6% 16%;
+    height: 504px;
+    border-radius: 20px;
+}
+
+.login-box-content-left img {
+    padding: 40% 8%;
+    width: 370px;
+}
+
+.login-box-content-center {
+    margin: -102% 103%;
+}
+
+.login-box-content-center img {
+    height: 500px;
+    width: 80px;
+}
+
+.login-box-content-right {
+    background-color: #EFEFEF;
+    margin: -116% 120%;
+    width: 785px;
+    height: 500px;
+}
+.footer {
+    margin: 9% -1%;
+    text-align: center; /* Center the footer text */
+}
+
+.footer img {
+    display: block;
+    width: 150px;
+    margin: 0 auto; /* Center the image */
+}
+
+.footer p {
+    display: block; /* Ensure paragraphs are block elements */
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: -76px 50px;
+    text-align: left; 
+    padding-left: 170px;/* Center the text below each image */
+}
+
+
+/* Media Query for Mobile Screens */
+@media (max-width: 767px) {
+    h4.header {
+        display: none;
+    }
+
+    .info {
+        display: none;
+    }
+
+    .container {
+        margin-top: 15px;
+        margin-right: -60px;
+        margin-right: -100px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        height: 500px;
+        border-radius: 10px;
+        background-color: #EFEFEF;
+    }
+
+    .login-box-content-left img {
+        padding: 20px;
+        width: 80%;
+        padding-left: 70px;
+        margin-bottom: -30px;
+    }
+
+    .login-box-content-center {
+        display: none;
+    }
+
+    .login-box-content-center img {
+        display: none;
+    }
+
+    .login-box-content-right {
+        margin: -7px 12px 1px 1px;
+        width: auto;
+        height: 400px;
+    }
+
+    .support {
+        display: none;
+    }
+
+    .login-box-content-right input {
+        max-width: 300px;
+        max-height: 40px;
+    }
+
+    .login-box-content-right button {
+        max-width: 300px;
+        max-height: 40px;
+        margin-top: 0px;
+    }
+    .footer p{
+        display: inline-block;
+    padding: 0;
+    margin-top: 10px;
+        
+    }
+}
